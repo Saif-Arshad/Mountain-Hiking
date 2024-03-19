@@ -1,95 +1,38 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+'use client'
+import './Styles/Home.scss'
+import Whyus from './SubHome/Whyus';
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <>
+    <div className="home">
+      <div className="img-div">
+        <h1>Adventure Begins Here</h1>
+          <p>Choose from thousands of Organized Adventures
+
+</p>
+<button>Check out </button>
+        
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="testimonail">
+                      <div >
+<img src="https://pakistantravelplaces.com/wp-content/uploads/2018/12/Destinations-1.png" alt="Destinations icon" width="80" height="80" title="Destinations-1"/>
+<h3 >50+ Destinations</h3>
+                            </div>
+                            <div>
+<img src="https://pakistantravelplaces.com/wp-content/uploads/2018/12/Best-Price-Guaranteed-1.png" alt="Best-Price-Guaranteed" width="80" height="80" title="Best-Price-Guaranteed-1"/>
+<h3>Best Price Guaranteed</h3>
+</div>
+                            <div>
+<img src="https://pakistantravelplaces.com/wp-content/uploads/2018/12/100-Customer-Satisfaction-1.png" alt="100-Customer-Satisfaction" width="80" height="80" title="100-Customer-Satisfaction-1"/>
+<h3 >Eco Friendly Tourism</h3>
+</div>
+                            <div>
+<img src="https://pakistantravelplaces.com/wp-content/uploads/2018/12/Super-Fast-Booking-1.png" alt="Super-Fast-Booking" width="80" height="80" title="Super-Fast-Booking-1"/>
+<h3 >Super Fast Booking</h3>
+          </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
+    <Whyus/>
+    </>
   );
 }

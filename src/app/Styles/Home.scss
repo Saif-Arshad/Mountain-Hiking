@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.home{
+    height: 100%;
+    width: 100%;
+    padding: 7.2rem 0rem 0 0 ;
+    .img-div{
+        background-image: url(../../../public/Images/Main.jpg);
+        padding: 8rem 4rem;
+        width: 90%;
+        position: relative;
+        border-radius: 18px;
+        z-index: 1;
+        left: 5%;
+        color: white;
+        background-position: center;
+        background-size: cover;
+
+button{
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 12px 16px;
+    height: 48px;
+    background-color: #fff;
+    color: #323637;
+    border-radius: 33px;
+    font-weight: 700;
+    border: none;
+    min-width: 120px;
+    margin: 16px 0 0;
+    width: auto;
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+}
+}
+        h1{
+            font-size: 50px;
+        }
+.testimonail{
+    background: #11384a;
+    width: 80%;
+    display: flex;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    gap: 20px;
+    img{
+        // color: rgb(0, 0, 0);
+        height: 42px;
+        width: 42px;
+        margin-right: 5px;
+        
+    }
+    div{
+        display: flex;
+        align-items: center;
+    }
+}  
+.testimonail div:hover +img{
+    transform: scale(1.2);
+}
+    }
+
+//media quries
+
+@media screen and (max-width:500px){
+    .home{
+        .home .img-div {
+            padding: 8rem 2rem;
+        }
+        h1{
+            font-size: 30px;
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+    .whyus .content h1 {
+        font-size: 36px !important;
+    }
+    .Explore h2 {
+        font-size: 26px !important;
+        margin-left: 10px;
+    }
+    .Explore .child-explore div {
+        width: 234px;
+        height: 190px;
+        margin: 10px 1px 0 2% !important;
+    }
+    .newsletter div{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+}
+

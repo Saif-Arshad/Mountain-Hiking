@@ -8,8 +8,8 @@
     width: 100%;
     padding: 7.2rem 0rem 0 0 ;
     .img-div{
-        background-image: url(../../../public/Images/Main.jpg);
-        padding: 8rem 4rem;
+        background-image: url(../../public/Images/Main.jpg);
+        padding: 8rem 2rem;
         width: 90%;
         position: relative;
         border-radius: 18px;
@@ -80,13 +80,13 @@ button{
 @media screen and (max-width:500px){
     .home{
         .home .img-div {
-            padding: 8rem 2rem;
+            padding: 8rem 1rem !important;
         }
         h1{
-            font-size: 30px;
+            font-size: 30px !important;
         }
         p{
-            margin-top: 10px;
+            margin-top: 10px !important;
         }
     }
     .whyus .content h1 {

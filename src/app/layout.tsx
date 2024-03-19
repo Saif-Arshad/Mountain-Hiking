@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
+import Header from '../Components/Header/Header'
 
 export const metadata: Metadata = {
   title: "Mountain Climing - Guide and more",

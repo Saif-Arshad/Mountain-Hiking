@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import card1 from '../../../public/Images/oneCard.jpg'
-import card2 from '../../../public/Images/threecard.jpeg'
-import card3 from '../../../public/Images/two.jpeg'
+import card1 from '../../public/Images/oneCard.jpg'
+import card2 from '../../public/Images/two.jpeg'
+import card3 from '../../public/Images/two.jpeg'
 import '../Styles/Whyus.scss'
 function Whyus() {
   return (

@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link'
 import '../Header/Header.scss';
 import Image from 'next/image';
 import Logo from "../../../public/Images/logo.png";
@@ -81,7 +82,7 @@ function Header() {
         <div className="headercontainer">
           <nav id="navigation">
             <div className="Logocontainer">
-              <a to='/' className="logo" onClick={handleLogoClick}>
+              <a  className="logo" onClick={handleLogoClick}>
              <Image
               src={Logo}
              />
@@ -98,24 +99,19 @@ function Header() {
             </a>
             <ul className="menu-left">
               <li>
-                <a to="/" onClick={handleMenuItemClick}>
+                <Link href="/" onClick={handleMenuItemClick}>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-              <a to="/about" onClick={handleMenuItemClick}>
+              <Link href="/about" onClick={handleMenuItemClick}>
                   About
-                </a>
+                </Link>
               </li>
               <li>
-              <a to="/project" onClick={handleMenuItemClick}>
-                  FAQ's
-                </a>
-              </li>
-              <li>
-              <a to="/contact" onClick={handleMenuItemClick}>
+              <Link href="/contact" onClick={handleMenuItemClick}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

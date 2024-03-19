@@ -1,6 +1,6 @@
 'use client'
-import './Styles/Home.scss'
-import Whyus from './SubHome/Whyus';
+import '../Styles/Home.scss'
+import Whyus from '../SubHome/Whyus';
 export default function Home() {
   return (
     <>

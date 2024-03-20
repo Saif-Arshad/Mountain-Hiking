@@ -28,7 +28,7 @@ export default function page() {
       </div>
       <div className="right-side">
         <div className="topic-text">Send us a message</div>
-        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It is my pleasure to help you.</p>
       <form action="#">
 
         <div className="input-box">

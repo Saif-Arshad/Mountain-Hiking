@@ -85,6 +85,7 @@ function Header() {
               <a  className="logo" onClick={handleLogoClick}>
              <Image
               src={Logo}
+                alt='Logo Main'
              />
 
         

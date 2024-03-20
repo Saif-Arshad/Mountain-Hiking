@@ -82,7 +82,7 @@ function Footer() {
         </div>
         <div class="footer-content-column">
           <div class="footer-call-to-action">
-            <h2 class="footer-call-to-action-title"> Let's Chat</h2>
+            <h2 class="footer-call-to-action-title"> Let Chat</h2>
             <p class="footer-call-to-action-description"> Have a support question?</p>
             <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
           </div>
